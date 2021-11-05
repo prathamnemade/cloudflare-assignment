@@ -1,6 +1,6 @@
 import { _parseJSON } from "../utils/common";
 
-const URL = "https://my-worker.prathameshnemade.workers.dev/api";
+const URL = "https://workers.prathameshnemade.workers.dev/api";
 
 const getPosts = async () => {
   const response = await fetch(`${URL}/posts`, {
